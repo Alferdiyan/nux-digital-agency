@@ -2,6 +2,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
+import Section from '../components/Section';
+import Service from '../components/Service';
+import bgnoise from '../public/img/BgNoise.png';
 
 export default function Home() {
     return (
@@ -18,7 +21,7 @@ export default function Home() {
             <main>
                 <Navbar />
                 <Hero />
-                {/* <Service/> */}
+                <Service />
                 {/* <Project/> */}
                 {/* <WorldClient/> */}
                 {/* <AboutUs/> */}

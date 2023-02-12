@@ -25,7 +25,7 @@ export default function Navbar() {
                     bgColor="transparent"
                 />
             </div>
-            <div className="bg-cyan-300 flex items-center justify-center gap-8">
+            <div className="flex items-center justify-center gap-8">
                 <NavMenu href="#about" className="heroButton">
                     Home
                 </NavMenu>
