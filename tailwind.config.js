@@ -8,8 +8,16 @@ module.exports = {
         // Or if using `src` directory:
         './src/**/*.{js,ts,jsx,tsx}',
     ],
+
     theme: {
-        extend: {},
+        extend: {
+            filter: {
+                grayscale: 'grayscale(100%)',
+            },
+            fontFamily: {
+                'clash-display': ['Clash Display Variable', 'sans-serif'],
+            },
+        },
     },
     plugins: [],
 };

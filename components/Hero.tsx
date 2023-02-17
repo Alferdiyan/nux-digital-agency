@@ -40,7 +40,7 @@ export default function Hero() {
                     <Image src={elip}></Image>
                     <li>BRANDING</li>
                 </ul>
-                <div className="bg-[#FAFF00]">
+                <div className="bg-[#FAFF00] flex justify-center">
                     {/* <h1 className="text-9xl font-extrabold">NUX DESIGN</h1> */}
                     <Image src={nux} className="w-[1373px] px-8 py-10"></Image>
                 </div>
