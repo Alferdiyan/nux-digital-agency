@@ -1,7 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 
-export default function NavMenu({ href, children }) {
+interface Props {
+    href: string;
+    children: React.ReactNode;
+  }
+
+export default function NavMenu({ href, children }: Props) {
     return (
         <div>
             <Link href={href}>
