@@ -17,7 +17,11 @@ export default function WorldClient() {
     return (
         <div className="pt-[125px]">
             <div className="flex justify-center px-[316px] gap-10">
-                <Image className="h-[209px] w-[209px]" src={yeloowstar}></Image>
+                <Image
+                    className="h-[209px] w-[209px]"
+                    src={yeloowstar}
+                    alt=""
+                ></Image>
                 <div>
                     <h1 className="font-medium text-lg">03 / World Client</h1>
                     <p className="uppercase text-[56px] font-semibold">
