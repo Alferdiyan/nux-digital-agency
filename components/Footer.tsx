@@ -6,9 +6,9 @@ export default function Footer() {
         <div className="py-[116px] font-clash-display ">
             <div className="flex flex-col justify-center items-center">
                 <div className="text-[139px] font-bold border flex flex-col justify-center items-center ">
-                    <p className="p-0">Let's work</p>
+                    <p className="p-0">Let&apos;s work</p>
                     <p className=""> together</p>
-                    <p className=""> Lets Creative</p>
+                    <p className=""> Let&apos;s Creative</p>
                 </div>
                 <div>
                     <button className="border rounded-2xl">
@@ -21,7 +21,8 @@ export default function Footer() {
                 <div>
                     <div>
                         <p>
-                            Would you like to work with us? Let's! work together
+                            Would you like to work with us? Let&apos;s! work
+                            together
                         </p>
                     </div>
                 </div>

@@ -44,11 +44,11 @@ export default function AboutUs() {
                     src={photo3}
                 ></Image>
             </div>
-            <div className="flex justify-center font-clash-display pt-[72px]">
+            {/* <div className="flex justify-center font-clash-display pt-[72px]">
                 <button className=" border text-base font-semibold rounded-3xl px-4 py-2 bg-white hover:bg-slate-900 text-black hover:text-white">
                     Meet The Team
                 </button>
-            </div>
+            </div> */}
         </div>
     );
 }

@@ -18,14 +18,14 @@ export default function Testimonials() {
             {/* Testimonials  */}
             <div>
                 <p className="pt-[108px] font-semibold uppercase text-2xl text-[#FAFF00]">
-                    “ I'm happy that I chose NUX to help me create a website for
-                    company's and mobile apps.
+                    &lsquo;&lsquo; I&apos;m happy that I chose NUX to help me
+                    create a website for company's and mobile apps.
                     <span className="text-white ">
                         They did a fantastic job quickly putting the site
                         together. Cryses and his colleagues are incredibly
                         detail-oriented and receptive to my suggestions.
                     </span>{' '}
-                    “
+                    &rsquo;&rsquo;
                 </p>
                 <div className="flex items-center gap-4 pt-12 pb-[108px]">
                     <Image
