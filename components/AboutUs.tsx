@@ -25,18 +25,22 @@ export default function AboutUs() {
             <div className="flex gap-6 justify-evenly">
                 <Image
                     className="h-58 w-56 filter grayscale"
+                    alt=""
                     src={photo4}
                 ></Image>
                 <Image
                     className="h-58 w-56 filter grayscale"
+                    alt=""
                     src={photo1}
                 ></Image>
                 <Image
                     className="h-58  w-56 filter grayscale"
+                    alt=""
                     src={photo2}
                 ></Image>
                 <Image
                     className="h-58  w-56 filter grayscale"
+                    alt=""
                     src={photo3}
                 ></Image>
             </div>

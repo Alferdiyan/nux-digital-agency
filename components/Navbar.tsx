@@ -38,6 +38,7 @@ export default function Navbar() {
                 <Image
                     src={logo}
                     className="h-6 mx-10 flex items-center  text-black"
+                    alt=""
                 ></Image>
 
                 <NavMenu href="#about" className="heroButton">

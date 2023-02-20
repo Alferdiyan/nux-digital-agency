@@ -14,6 +14,7 @@ export default function Hero() {
                     <span>
                         <Image
                             src={start}
+                            alt=""
                             className="h-15 inline-flex align-baseline ml-6 "
                         ></Image>
                         <p className="text-sm w-60 font-semibold inline-flex pt-3 ml-6 align-top">

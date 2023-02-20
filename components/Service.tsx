@@ -41,10 +41,3 @@ export default function Service() {
         </div>
     );
 }
-
-{
-    /* // Isi dari section
-<div className="background">
-    Service
-</div> */
-}
