@@ -32,6 +32,7 @@ export default function Project() {
                         <Image
                             className="pt-[54px] px-[23px] w-full"
                             src={gym}
+                            alt="gym"
                         ></Image>
                     </span>
                 </div>
@@ -50,7 +51,11 @@ export default function Project() {
             </div>
             <div>
                 <div className="w-full mb-8">
-                    <Image className="pt-[54px]  w-full" src={law}></Image>
+                    <Image
+                        className="pt-[54px]  w-full"
+                        src={law}
+                        alt="law"
+                    ></Image>
                 </div>
 
                 <div className="flex justify-between">

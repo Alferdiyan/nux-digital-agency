@@ -29,23 +29,31 @@ export default function Hero() {
             <div>
                 <ul className="flex flex-nowrap bg-black text-white font-normal text-3xl gap-4 overflow-hidden ">
                     <li>UIDESIGN</li>
-                    <Image src={elip}></Image>
+                    <Image src={elip} alt="elip"></Image>
                     <li>WEBFLOW</li>
-                    <Image src={elip}></Image>
+                    <Image src={elip} alt="elip"></Image>
                     <li>USERRESAERCH</li>
-                    <Image src={elip}></Image>
+                    <Image src={elip} alt="elip"></Image>
                     <li>ILLUSTRATION</li>
-                    <Image src={elip}></Image>
+                    <Image src={elip} alt="elip"></Image>
                     <li>DIGITALMARKETING</li>
-                    <Image src={elip}></Image>
+                    <Image src={elip} alt="elip"></Image>
                     <li>BRANDING</li>
                 </ul>
                 <div className="bg-[#FAFF00] flex justify-center">
                     {/* <h1 className="text-9xl font-extrabold">NUX DESIGN</h1> */}
-                    <Image src={nux} className="w-[1373px] px-8 py-10"></Image>
+                    <Image
+                        src={nux}
+                        alt="nux"
+                        className="w-[1373px] px-8 py-10"
+                    ></Image>
                 </div>
                 <div>
-                    <Image src={desktop} className="w-full"></Image>
+                    <Image
+                        src={desktop}
+                        alt="desktop"
+                        className="w-full"
+                    ></Image>
                 </div>
             </div>
         </div>

@@ -26,16 +26,40 @@ export default function WorldClient() {
                 </div>
             </div>
             <div className="grid grid-cols-5 gap-x-52 px-8 gap-y-[72px] mt-[89px] mb-[139px]">
-                <Image className="h-8 w-[125px]" src={velocity}></Image>
-                <Image className="h-8 w-[125px]" src={muzica}></Image>
-                <Image className="h-8 w-[125px]" src={foxhub}></Image>
-                <Image className="h-8 w-[125px]" src={ztos}></Image>
-                <Image className="h-8 w-[125px]" src={liva}></Image>
-                <Image className="h-8 w-[125px]" src={amara}></Image>
-                <Image className="h-8 w-[125px]" src={goldline}></Image>
-                <Image className="h-8 w-[125px]" src={utosia}></Image>
-                <Image className="h-8 w-[125px]" src={codelab}></Image>
-                <Image className="h-8 w-[125px]" src={atika}></Image>
+                <Image
+                    className="h-8 w-[125px]"
+                    alt="elip"
+                    src={velocity}
+                ></Image>
+                <Image
+                    className="h-8 w-[125px]"
+                    alt="elip"
+                    src={muzica}
+                ></Image>
+                <Image
+                    className="h-8 w-[125px]"
+                    alt="elip"
+                    src={foxhub}
+                ></Image>
+                <Image className="h-8 w-[125px]" alt="elip" src={ztos}></Image>
+                <Image className="h-8 w-[125px]" alt="elip" src={liva}></Image>
+                <Image className="h-8 w-[125px]" alt="elip" src={amara}></Image>
+                <Image
+                    className="h-8 w-[125px]"
+                    alt="elip"
+                    src={goldline}
+                ></Image>
+                <Image
+                    className="h-8 w-[125px]"
+                    alt="elip"
+                    src={utosia}
+                ></Image>
+                <Image
+                    className="h-8 w-[125px]"
+                    alt="elip"
+                    src={codelab}
+                ></Image>
+                <Image className="h-8 w-[125px]" alt="elip" src={atika}></Image>
             </div>
         </div>
     );

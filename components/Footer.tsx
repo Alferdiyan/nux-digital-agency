@@ -19,7 +19,6 @@ export default function Footer() {
 
             <div>
                 <div>
-                    <Image></Image>
                     <div>
                         <p>
                             Would you like to work with us? Let's! work together

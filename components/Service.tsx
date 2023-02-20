@@ -35,6 +35,7 @@ export default function Service() {
                 <Image
                     className="w-[132px] h-[133px]  flex justify-center rotat"
                     src={arrow}
+                    alt="arrow"
                 ></Image>
             </div>
         </div>
